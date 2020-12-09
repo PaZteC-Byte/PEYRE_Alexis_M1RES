@@ -18,15 +18,7 @@
    "cell_type": "code",
    "execution_count": 1,
    "metadata": {},
-   "outputs": [
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "7\n"
-     ]
-    }
-   ],
+   "outputs": [],
    "source": [
     "x = 10\n",
     "y = 3\n",
@@ -38,15 +30,7 @@
    "cell_type": "code",
    "execution_count": 2,
    "metadata": {},
-   "outputs": [
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "12\n"
-     ]
-    }
-   ],
+   "outputs": [],
    "source": [
     "x = 10\n",
     "y = 3\n",
@@ -204,7 +188,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": 8,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -237,10 +221,10 @@
      "name": "stdout",
      "output_type": "stream",
      "text": [
-      "Entrer une valeur de verite pour A: (entrer False ou True)f\n",
-      "Entrer une valeur de verite pour B: (entrer False ou True)f\n",
-      "Entrer une valeur de verite pour C: (entrer False ou True)f\n",
-      "Entrer une expression Bolenne avec des \"non\", \"ou\", \"et\", et des parentheses:non\n",
+      "Entrer une valeur de verite pour A: (entrer False ou True)true\n",
+      "Entrer une valeur de verite pour B: (entrer False ou True)true\n",
+      "Entrer une valeur de verite pour C: (entrer False ou True)false\n",
+      "Entrer une expression Bolenne avec des \"non\", \"ou\", \"et\", et des parentheses:ou\n",
       "True\n"
      ]
     }
@@ -261,6 +245,13 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
+    "# #___________________________________________________________"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
     "# TD 2 :"
    ]
   },
@@ -273,7 +264,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 99,
+   "execution_count": 10,
    "metadata": {},
    "outputs": [
     {
@@ -306,7 +297,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 100,
+   "execution_count": 11,
    "metadata": {},
    "outputs": [
     {
@@ -334,7 +325,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 101,
+   "execution_count": 12,
    "metadata": {},
    "outputs": [
     {
@@ -367,7 +358,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 102,
+   "execution_count": 13,
    "metadata": {},
    "outputs": [
     {
@@ -412,7 +403,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 103,
+   "execution_count": 14,
    "metadata": {},
    "outputs": [
     {
@@ -452,15 +443,15 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 104,
+   "execution_count": 15,
    "metadata": {},
    "outputs": [
     {
      "name": "stdout",
      "output_type": "stream",
      "text": [
-      "Tapez une phrase avec espaces entre chaque mots : true\n",
-      "['true']\n"
+      "Tapez une phrase avec espaces entre chaque mots : je test cette phrase\n",
+      "['cette', 'je', 'phrase', 'test']\n"
      ]
     }
    ],
@@ -480,17 +471,17 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 106,
+   "execution_count": 16,
    "metadata": {},
    "outputs": [
     {
      "name": "stdout",
      "output_type": "stream",
      "text": [
-      " Joueur 1 = ['♦ Carreau Roi', '♦ Carreau 2', '♥ Coeur 5', '♠ Pique Valet', '♥ Coeur Roi', '♠ Pique 3', '♣ Trefle Valet', '♠ Pique 8', '♠ Pique 6', '♠ Pique Dame', '♥ Coeur 7', '♦ Carreau Dame', '♦ Carreau 9']\n",
-      " Joueur 2 = ['♥ Coeur As', '♣ Trefle 6', '♣ Trefle 2', '♥ Coeur Valet', '♠ Pique Roi', '♣ Trefle 4', '♣ Trefle 8', '♥ Coeur Dame', '♥ Coeur 6', '♦ Carreau 8', '♥ Coeur 10', '♥ Coeur 2', '♣ Trefle As']\n",
-      " Joueur 3 = ['♠ Pique 2', '♣ Trefle 10', '♠ Pique As', '♣ Trefle Dame', '♦ Carreau As', '♦ Carreau 4', '♦ Carreau 3', '♠ Pique 7', '♦ Carreau Valet', '♦ Carreau 6', '♠ Pique 4', '♠ Pique 10', '♣ Trefle 5']\n",
-      " Joueur 4 = ['♦ Carreau 7', '♠ Pique 5', '♦ Carreau 10', '♣ Trefle 7', '♥ Coeur 9', '♠ Pique 9', '♣ Trefle 9', '♥ Coeur 3', '♦ Carreau 5', '♣ Trefle 3', '♥ Coeur 8', '♥ Coeur 4', '♣ Trefle Roi']\n"
+      " Joueur 1 = ['♦ Carreau 5', '♣ Trefle 6', '♠ Pique As', '♠ Pique 6', '♦ Carreau 8', '♠ Pique Roi', '♥ Coeur 9', '♦ Carreau Valet', '♦ Carreau 3', '♥ Coeur 6', '♣ Trefle 2', '♣ Trefle 10', '♠ Pique 4']\n",
+      " Joueur 2 = ['♣ Trefle 4', '♥ Coeur 8', '♠ Pique Valet', '♦ Carreau 7', '♠ Pique 9', '♥ Coeur 7', '♠ Pique 7', '♠ Pique 8', '♥ Coeur 4', '♥ Coeur 5', '♣ Trefle 5', '♦ Carreau As', '♥ Coeur 10']\n",
+      " Joueur 3 = ['♣ Trefle 9', '♠ Pique 10', '♥ Coeur As', '♦ Carreau 2', '♦ Carreau 4', '♥ Coeur 3', '♦ Carreau Dame', '♠ Pique 3', '♠ Pique Dame', '♦ Carreau Roi', '♦ Carreau 9', '♥ Coeur Valet', '♣ Trefle 7']\n",
+      " Joueur 4 = ['♥ Coeur Dame', '♣ Trefle Valet', '♦ Carreau 10', '♦ Carreau 6', '♣ Trefle Roi', '♣ Trefle 3', '♣ Trefle Dame', '♥ Coeur Roi', '♣ Trefle 8', '♥ Coeur 2', '♠ Pique 5', '♣ Trefle As', '♠ Pique 2']\n"
      ]
     }
    ],
@@ -533,7 +524,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 127,
+   "execution_count": 17,
    "metadata": {},
    "outputs": [
     {
@@ -563,7 +554,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 128,
+   "execution_count": 18,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -575,7 +566,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 129,
+   "execution_count": 19,
    "metadata": {},
    "outputs": [
     {
@@ -611,7 +602,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 2,
+   "execution_count": 20,
    "metadata": {},
    "outputs": [
     {
@@ -633,15 +624,16 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 4,
+   "execution_count": 21,
    "metadata": {},
    "outputs": [
     {
      "name": "stdout",
      "output_type": "stream",
      "text": [
-      "Veuillez rentrer votre prénom, nom et matricule d'étudiant séparés par des espaces :(Entrer 'FIN' pour finir la saisie)test2 test2 20\n",
-      "Veuillez rentrer votre prénom, nom et matricule d'étudiant séparés par des espaces :(Entrer 'FIN' pour finir la saisie)test3 test3 30\n",
+      "Veuillez rentrer votre prénom, nom et matricule d'étudiant séparés par des espaces :(Entrer 'FIN' pour finir la saisie)test1 test1 11\n",
+      "Veuillez rentrer votre prénom, nom et matricule d'étudiant séparés par des espaces :(Entrer 'FIN' pour finir la saisie)test2 test2 12\n",
+      "Veuillez rentrer votre prénom, nom et matricule d'étudiant séparés par des espaces :(Entrer 'FIN' pour finir la saisie)test3 test3 13\n",
       "Veuillez rentrer votre prénom, nom et matricule d'étudiant séparés par des espaces :(Entrer 'FIN' pour finir la saisie)FIN\n"
      ]
     }
@@ -661,7 +653,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 5,
+   "execution_count": 22,
    "metadata": {},
    "outputs": [
     {
@@ -669,12 +661,9 @@
      "output_type": "stream",
      "text": [
       "___________________________________________________\n",
-      "| Matricule : 20 | Mme/Mr : test2 test2 \n",
-      "| Matricule : 30 | Mme/Mr : test3 test3 \n",
-      "| Matricule : 40 | Mme/Mr : test4 test4 \n",
-      "| Matricule : 50 | Mme/Mr : test5 test5 \n",
-      "| Matricule : 20 | Mme/Mr : test2 test2 \n",
-      "| Matricule : 30 | Mme/Mr : test3 test3 \n",
+      "| Matricule : 11 | Mme/Mr : test1 test1 \n",
+      "| Matricule : 12 | Mme/Mr : test2 test2 \n",
+      "| Matricule : 13 | Mme/Mr : test3 test3 \n",
       "___________________________________________________\n"
      ]
     }
@@ -696,7 +685,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 6,
+   "execution_count": 23,
    "metadata": {},
    "outputs": [
     {
@@ -723,7 +712,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 7,
+   "execution_count": 24,
    "metadata": {},
    "outputs": [
     {
@@ -743,7 +732,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 8,
+   "execution_count": 25,
    "metadata": {},
    "outputs": [
     {
@@ -763,7 +752,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 9,
+   "execution_count": 26,
    "metadata": {},
    "outputs": [
     {
@@ -782,7 +771,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 10,
+   "execution_count": 27,
    "metadata": {},
    "outputs": [
     {
@@ -823,18 +812,18 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 15,
+   "execution_count": 28,
    "metadata": {},
    "outputs": [
     {
      "name": "stdout",
      "output_type": "stream",
      "text": [
-      "Entrer prenom, nom et matricule étudiant séparés par un espace : (FIN pour finir) test1 test1 10\n",
-      "Entrer prenom, nom et matricule étudiant séparés par un espace : (FIN pour finir) test2 test2 20\n",
-      "Entrer prenom, nom et matricule étudiant séparés par un espace : (FIN pour finir) test3 test3 30\n",
+      "Entrer prenom, nom et matricule étudiant séparés par un espace : (FIN pour finir) Test1 test1 11\n",
+      "Entrer prenom, nom et matricule étudiant séparés par un espace : (FIN pour finir) Test2 test2 12\n",
+      "Entrer prenom, nom et matricule étudiant séparés par un espace : (FIN pour finir) Test3 test3 13\n",
       "Entrer prenom, nom et matricule étudiant séparés par un espace : (FIN pour finir) FIN\n",
-      "{'test1': ('test1', 'test1', '10'), 'test2': ('test2', 'test2', '20'), 'test3': ('test3', 'test3', '30')}\n"
+      "{'test1': ('Test1', 'test1', '11'), 'test2': ('Test2', 'test2', '12'), 'test3': ('Test3', 'test3', '13')}\n"
      ]
     }
    ],
@@ -864,8 +853,15 @@
    ]
   },
   {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "exo 8 (3)"
+   ]
+  },
+  {
    "cell_type": "code",
-   "execution_count": 16,
+   "execution_count": 29,
    "metadata": {},
    "outputs": [
     {
@@ -879,16 +875,21 @@
     }
    ],
    "source": [
-    "# Exo 8 | 3\n",
-    "\n",
     "for keys in etudiant.keys():\n",
     "    print(\"Nom étudiant : \" + keys)\n",
     "\n"
    ]
   },
   {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "exo 8 (4)"
+   ]
+  },
+  {
    "cell_type": "code",
-   "execution_count": 17,
+   "execution_count": 30,
    "metadata": {},
    "outputs": [
     {
@@ -900,8 +901,6 @@
     }
    ],
    "source": [
-    "# Exo 8 | 4\n",
-    "\n",
     "if \"Obama\" in (etudiant):\n",
     "    print(etudiant[\"Obama\"])\n",
     "else :\n",
@@ -909,32 +908,430 @@
    ]
   },
   {
-   "cell_type": "code",
-   "execution_count": 19,
+   "cell_type": "markdown",
    "metadata": {},
-   "outputs": [
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "cle test2 valeur ('test2', 'test2', '20')\n"
-     ]
-    }
-   ],
    "source": [
-    "# Exo 8 | 5\n",
-    "\n",
+    "exo 8 (5)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 31,
+   "metadata": {},
+   "outputs": [],
+   "source": [
     "for cle, values in etudiant.items():\n",
     "    if values[2] == \"20\":\n",
     "        print(\"cle \" + str(cle), \"valeur \" + str(values))"
    ]
   },
   {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# #___________________________________________________________"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# TD 3 :"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "exo 1 :"
+   ]
+  },
+  {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": 32,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Entrer un nombre à multiplier : 5\n",
+      "5\n",
+      "10\n",
+      "15\n",
+      "20\n",
+      "25\n"
+     ]
+    }
+   ],
+   "source": [
+    "user = int(input(\"Entrer un nombre à multiplier : \"))\n",
+    "for x in range(1,6):\n",
+    "    print(user*x)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 33,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Entrer un nombre à multiplier : 5\n",
+      "5 10 15 20 25 30 35 40 45 50 "
+     ]
+    }
+   ],
+   "source": [
+    "user = int(input(\"Entrer un nombre à multiplier : \"))\n",
+    "for x in range(1, 11):\n",
+    "    print(user*x, end=\" \")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 34,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Veuillez entrer le nombre table que vous souhaitez visualisé : 2\n",
+      "Table de 1 :\n",
+      "1\n",
+      "2\n",
+      "3\n",
+      "4\n",
+      "5\n",
+      "6\n",
+      "7\n",
+      "8\n",
+      "9\n",
+      "10\n",
+      "Table de 2 :\n",
+      "2\n",
+      "4\n",
+      "6\n",
+      "8\n",
+      "10\n",
+      "12\n",
+      "14\n",
+      "16\n",
+      "18\n",
+      "20\n"
+     ]
+    }
+   ],
+   "source": [
+    "user = int(input(\"Veuillez entrer le nombre table que vous souhaitez visualisé : \"))\n",
+    "for x in range(user):\n",
+    "    print(\"Table de\", int(x) + 1, \":\")\n",
+    "    for i in range(1, 11):\n",
+    "        print((x+1)*i,)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 35,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Veuillez entrer le nombre d'asterisk à afficher : 5\n",
+      " * \n",
+      " *  * \n",
+      " *  *  * \n",
+      " *  *  *  * \n",
+      " *  *  *  *  * \n"
+     ]
+    }
+   ],
+   "source": [
+    "user = int(input(\"Veuillez entrer le nombre d'asterisk à afficher : \"))\n",
+    "for x in range(user):\n",
+    "    print(\" * \" * (x+1))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 36,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Entrer un nombre à afficher en asterisk : 5\n",
+      "    * \n",
+      "   * * \n",
+      "  * * * \n",
+      " * * * * \n",
+      "* * * * * \n"
+     ]
+    }
+   ],
+   "source": [
+    "user = int(input(\"Entrer un nombre à afficher en asterisk : \"))\n",
+    "for x in range(user):\n",
+    "    print(\" \" * ((user-1)-x) + (\"* \" * (x+1)))"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "exo 2 :"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 37,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[('Janvier', 31), ('Février', 28), ('Mars', 31), ('Avril', 30), ('Mai', 31), ('Juin', 30), ('Juillet', 31), ('Août', 31), ('Septembre', 30), ('Octobre', 31), ('Novembre', 30), ('Décembre', 31)]\n"
+     ]
+    }
+   ],
+   "source": [
+    "jours = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]\n",
+    "mois = [\"Janvier\", \"Février\", \"Mars\", \"Avril\", \"Mai\", \"Juin\", \"Juillet\", \"Août\", \"Septembre\", \"Octobre\", \"Novembre\", \"Décembre\"]\n",
+    "moisjours = []\n",
+    "for x in range(len(jours)):\n",
+    "    moisjours.append((mois[x], jours[x]))\n",
+    "\n",
+    "print (moisjours)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 38,
    "metadata": {},
    "outputs": [],
+   "source": [
+    "annee = []\n",
+    "for month in moisjours:\n",
+    "    for x in range(month[1]):\n",
+    "        annee.append((str(x+1)) + \" \" + month[0])\n",
+    "#print (annee)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 39,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "jours_de_la_semaine = [\"Lundi\", \"Mardi\", \"Mercredi\", \"Jeudi\", \"Vendrdi\", \"Samedi\", \"Dimanche\"]\n",
+    "for jour in range(365):\n",
+    "    annee.append(jours_de_la_semaine[jour%len(jours_de_la_semaine)] + \" \" + annee[jour])\n",
+    "#print (annee)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "exo 3 :"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 40,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Veuillez entrer la note : 5\n",
+      "Veuillez entrer la note : 15\n",
+      "Veuillez entrer la note : 20\n",
+      "moyenne générale : 13.333333333333334 | minimum : 5.0 | maximum : 20.0\n"
+     ]
+    }
+   ],
+   "source": [
+    "relevee_notes = []\n",
+    "while len(relevee_notes) < 3:\n",
+    "    compteur_de_notes = 0\n",
+    "    utilisateur = float(input(\"Veuillez entrer la note : \"))\n",
+    "    relevee_notes.append(utilisateur)\n",
+    "\n",
+    "minimum = min(relevee_notes)\n",
+    "maximum = max(relevee_notes)\n",
+    "somme = 0\n",
+    "\n",
+    "for notes in relevee_notes:\n",
+    "    somme += float(notes)\n",
+    "moyenne = (somme/len(relevee_notes))\n",
+    "\n",
+    "print(\"moyenne générale : \" + str(moyenne), \"| minimum : \" + str(minimum), \"| maximum : \" + str(maximum))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 41,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Veuillez entrer le nombre de notes que vous voulez saisir ? 15\n",
+      "Veuillez entrer une note : 15\n",
+      "Veuillez entrer une note : 15\n",
+      "Veuillez entrer une note : 15\n",
+      "Veuillez entrer une note : 15\n",
+      "Veuillez entrer une note : 15\n",
+      "Veuillez entrer une note : 15\n",
+      "Veuillez entrer une note : 15\n",
+      "Veuillez entrer une note : 15\n",
+      "Veuillez entrer une note : 15\n",
+      "Veuillez entrer une note : 15\n",
+      "Veuillez entrer une note : 15\n",
+      "Veuillez entrer une note : 15\n",
+      "moyenne 14.666666666666666 minimum 5.0 maximum 20.0\n"
+     ]
+    }
+   ],
+   "source": [
+    "nb_de_note= int(input(\"Veuillez entrer le nombre de notes que vous voulez saisir ? \"))\n",
+    "\n",
+    "while len(relevee_notes) < nb_de_note:\n",
+    "    utilisateur = int(input(\"Veuillez entrer une note : \"))\n",
+    "    relevee_notes.append(utilisateur)\n",
+    "    \n",
+    "minimum = min(relevee_notes)\n",
+    "maximum = max(relevee_notes)\n",
+    "somme = 0\n",
+    "\n",
+    "for notes in relevee_notes:\n",
+    "    somme += int(notes)\n",
+    "    \n",
+    "moyenne = (somme / len(relevee_notes))\n",
+    "\n",
+    "print(\"moyenne \" + str(moyenne), \"minimum \" + str(minimum), \"maximum \" + str(maximum))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 42,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Entrer une note : (fin pour finir) 15\n",
+      "Entrer une note : (fin pour finir) 15\n",
+      "Entrer une note : (fin pour finir) 15\n",
+      "Entrer une note : (fin pour finir) 15\n",
+      "Entrer une note : (fin pour finir) 15\n",
+      "Entrer une note : (fin pour finir) fin\n",
+      "moyenne 14.75 minimum 5.0 maximum 20.0\n"
+     ]
+    }
+   ],
+   "source": [
+    "while True:\n",
+    "    utilisateur = input(\"Entrer une note : (fin pour finir) \")\n",
+    "    if utilisateur == \"fin\":\n",
+    "        break\n",
+    "    else:\n",
+    "        relevee_notes.append(float(utilisateur))\n",
+    "        minimum = min(relevee_notes)\n",
+    "        maximum = max(relevee_notes)\n",
+    "        somme = 0\n",
+    "        for notes in relevee_notes:\n",
+    "            somme += int(notes)\n",
+    "        moyenne = (somme / len(relevee_notes))\n",
+    "\n",
+    "print(\"moyenne \" + str(moyenne), \"minimum \" + str(minimum), \"maximum \" + str(maximum))\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "exo 4 :"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "from random import *;\n",
+    "\n",
+    "def exo4():\n",
+    "    aleatoire1 = randint(1,100)\n",
+    "    correct = False\n",
+    "    while not correct:\n",
+    "        user = int(input(\"Devine le nombre entre 1 et 100 \"))\n",
+    "        if aleatoire1 > user:\n",
+    "            print(\"Trop petit\")\n",
+    "        elif aleatoire1 < user:\n",
+    "            print(\"trop grand\")\n",
+    "        elif aleatoire1 == user:\n",
+    "            break\n",
+    "\n",
+    "    if aleatoire1 == user:\n",
+    "        rejoue = input (\"bien ouej fréro on rejoue ? (y or n) \")\n",
+    "        if rejoue == 'y':\n",
+    "            exo4()\n",
+    "exo4()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "\n",
+    "def justeprix():\n",
+    "    juste_prix = 500\n",
+    "    correct = False\n",
+    "    while not correct:\n",
+    "        saisi_utilisateur = int(input(\"Bienveue au Juste prix, Devine maintemant le prix exact entre 1 et 100 \"))\n",
+    "        if juste_prix > saisi_utilisateur:\n",
+    "            print(\"Plus grand\")\n",
+    "        elif juste_prix < saisi_utilisateur:\n",
+    "            print(\"Plus petit\")\n",
+    "        elif juste_prix == saisi_utilisateur:\n",
+    "            break\n",
+    "\n",
+    "    if juste_prix == saisi_utilisateur:\n",
+    "        rejouer = input (\"Bravo c'est gagné, voulez-vous rejouer ? (y or n) \")\n",
+    "        if rejouer == 'y':\n",
+    "            justeprix()\n",
+    "justeprix()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
    "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# "
+   ]
   }
  ],
  "metadata": {
